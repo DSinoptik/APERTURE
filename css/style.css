@@ -431,6 +431,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 56px 0 100px 0;
 }
 
@@ -446,6 +447,7 @@ footer {
 .social_nets a img {
     margin-left: 20px;
 }
+
 
 
 
