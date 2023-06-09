@@ -308,7 +308,13 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer_container1_box2 a {
+.bussiness_areas li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-right: 56px;
+}
+
+.bussiness_areas a {
     text-decoration: none;
     font-family: 'poppinsregular';
     font-style: normal;
@@ -316,8 +322,6 @@ footer {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
-    margin-bottom: 10px;
-    margin-right: 56px;
 }
 
 .bussiness_areas {
@@ -342,6 +346,12 @@ footer {
     margin-bottom: 10px;
 }
 
+.pages li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
 .pages a {
     text-decoration: none;
     font-family: 'poppinsregular';
@@ -350,7 +360,6 @@ footer {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
-    margin-bottom: 10px;
 }
 
 .fc1_box2_flex {
