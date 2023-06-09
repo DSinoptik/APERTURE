@@ -296,7 +296,7 @@ footer {
     color: #C0C0C0;
 }
 
-.footer_container1_box2 h4 {
+.bussiness_areas li:first-child {
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -311,7 +311,6 @@ footer {
 .bussiness_areas li {
     list-style: none;
     margin-bottom: 10px;
-    margin-right: 56px;
 }
 
 .bussiness_areas a {
@@ -327,14 +326,16 @@ footer {
 .bussiness_areas {
     display: flex;
     flex-direction: column;
+    margin-right: 56px;
 }
 
 .pages {
     display: flex;
     flex-direction: column;
+    margin-right: 56px;
 } 
 
-.pages h4 {
+.pages li:first-child {
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -349,7 +350,6 @@ footer {
 .pages li {
     list-style: none;
     margin-bottom: 10px;
-
 }
 
 .pages a {
