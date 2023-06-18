@@ -231,6 +231,7 @@ header nav li:last-of-type a {
   background-image: url(../images/himalayas.jpg);
   background-size: cover;
   position: relative;
+  background-position: bottom;
 }
 
 /* SECTION #4 CLIENTS CSS */
@@ -620,3 +621,60 @@ footer {
 .wildlife .rounded_button {
   margin-top: 20px;
 }
+
+/* TOOOLS SECTION CSS*/
+.tools {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.tools_leftbox {
+  width: 50%;
+  padding: 173px 45px 153px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tools_leftbox div {
+  max-width: 539px;
+}
+
+.tools_leftbox h5 {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  margin-bottom: 6px;
+}
+.tools_leftbox h4 {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.tools_leftbox p {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.fototools_background {
+  background-image: url(../images/fototools_background.jpg);
+  background-size: cover;
+  width: 50%;
+  position: relative;
+}
+/* END OF TOOL SECTION */
