@@ -1,0 +1,71 @@
+/* TOOOLS */
+.tools {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.tools_leftbox {
+    width: 50%;
+    padding: 173px 45px 153px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tools_leftbox div {
+    max-width: 539px;
+}
+
+.tools_leftbox h5 {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.tools_leftbox h4 {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.tools_leftbox p {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.fototools_background {
+    background-image: url(../images/fototools_background.jpg);
+    background-size: cover;
+    width: 50%;
+}
+/* END OF TOOL SECTION */
+
+
+
+<!-- SECTION TOOLS  -->
+     <section class="tools">
+        <div class="tools_leftbox">
+              <div>
+              <h5>The Gear cage</h5>
+              <h4>The tools that we use.</h4>
+              <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>
+              <a href="#" class="rounded_button">Check it out</a>
+              </div>
+        </div>
+        <div class="fototools_background"></div>  
+     </section>
+<!-- END OF TOOLS SECTION -->
