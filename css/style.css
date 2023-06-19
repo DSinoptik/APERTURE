@@ -519,7 +519,6 @@ footer {
 }
 
 /* WHAT WE DO SECTION STYLES */
-
 .whatwedo {
   padding: 120px 0 100px;
   margin: auto;
@@ -548,37 +547,31 @@ footer {
 }
 
 .boxes4_wrapper {
-  width: 1168px;
+  max-width: 1168px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
 }
 
-/* this block is under question */
-.product,
-.architecture,
-.drone,
-.wildlife {
+.boxes4_articles {
   max-width: 576px;
-  height: 600px;
   position: relative;
   margin-bottom: 16px;
 }
 
-.product div,
-.architecture div,
-.drone div,
-.wildlife div {
+.boxes4_articles img {
+  width: 100%;
+  display: block;
+}
+
+.photo_service_text {
   position: absolute;
   left: 30px;
   bottom: 30px;
 }
 
-.product h5,
-.architecture h5,
-.drone h5,
-.wildlife h5 {
+.boxes4_articles h5 {
   font-family: "poppinsregular";
   font-style: normal;
   font-weight: 400;
@@ -589,10 +582,7 @@ footer {
   color: #ffffff;
 }
 
-.product p,
-.architecture p,
-.drone p,
-.wildlife p {
+.boxes4_articles p {
   font-family: "poppinsregular";
   font-style: normal;
   font-weight: 400;
@@ -603,22 +593,19 @@ footer {
   margin-right: 45px;
 }
 
-.architecture p {
+#arch_photo_p {
   margin-right: 32px;
 }
 
-.drone p {
+#drone_photo_p {
   margin-right: 30px;
 }
 
-.wildlife p {
+#wildlife_photo_p {
   margin-right: 66px;
 }
 
-.product .rounded_button,
-.architecture .rounded_button,
-.drone .rounded_button,
-.wildlife .rounded_button {
+.boxes4_articles .rounded_button {
   margin-top: 20px;
 }
 
