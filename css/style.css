@@ -797,4 +797,8 @@ footer {
   color: #ffffff;
 }
 
+.dialog_label {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
 
