@@ -8,6 +8,10 @@
     <!-- CSS add -->
     <link rel="stylesheet" href="./css/owl.carousel.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.css" />
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
 
@@ -17,6 +21,30 @@
     <title>Aperture project</title>
   </head>
   <body>
+    <!-- dialog win -->
+    <div id="dialog" title="Get template">
+      <p>Get your free template from Aperture by providing your contact details (name and email address):</p>
+        <!-- input #1 -->
+        <div class="form-field">
+          <label for="user-name">Name&#42;</label>
+          <input type="text" class="ff-input" name="Name" id="user-name" required/>
+        </div>
+
+        <!-- input #2 -->
+        <div class="form-field">
+          <label for="user-email" class="ff-input-label">Email&#42;</label>
+          <input type="email" class="ff-input" name="Email" id="user-email" required/>
+        </div>
+
+        <p id="required">&#42; - required fields for subscribe</p>
+
+        <!-- button launch -->
+        <button class="form-launch" id="launch-btn">Subscribe</button>
+      </form>
+    </section>
+
+    </div>
+
     <!-- header -->
     <header>
       <div class="container">
@@ -38,7 +66,7 @@
               <a href="#">Contact</a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" id="opener">
                 <i class="fa-solid fa-user"></i>
                 Get template</a
               >
@@ -206,8 +234,13 @@
           <h2>Past clients</h2>
           <h3>Trusted by your favourite companies</h3>
 
-          <!-- owl-carousel class added update -->
+          <!-- owl-carousel class added update  -->
           <div class="flex_box owl-carousel">
+            <a href="#"><img src="./images/client1.svg" alt="client1" /></a>
+            <a href="#"><img src="./images/client2.svg" alt="client2" /></a>
+            <a href="#"><img src="./images/client3.svg" alt="client3" /></a>
+            <a href="#"><img src="./images/client4.svg" alt="client4" /></a>
+            <a href="#"><img src="./images/client5.svg" alt="client5" /></a>
             <a href="#"><img src="./images/client1.svg" alt="client1" /></a>
             <a href="#"><img src="./images/client2.svg" alt="client2" /></a>
             <a href="#"><img src="./images/client3.svg" alt="client3" /></a>
@@ -342,5 +375,9 @@
     <!-- Owl Carusel -->
     <script src="js/owl.carousel.js"></script>
     <script src="js/scripts.js"></script>
+
+    <!-- dialog js -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
   </body>
 </html>

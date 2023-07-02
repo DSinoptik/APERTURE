@@ -272,14 +272,14 @@ header nav li:last-of-type a {
   align-items: center;
 }
 
-.clients .flex_box a {
+.clients .flex_box img {
   display: inline-block;
   margin: 0 10px;
   max-width: 128px;
 }
 
 .clients .flex_box a img {
-  display: block;
+  /* display: block; */
   width: 100%;
 }
 
@@ -665,3 +665,136 @@ footer {
   position: relative;
 }
 /* END OF TOOLS SECTION */
+
+
+
+.owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.clients .owl-item {
+  text-align: center;
+}
+
+.clients .owl-nav .owl-prev {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -36px;
+  top: 65px;
+  transform: rotate(90deg);
+}
+
+.clients .owl-nav .owl-prev:before {
+  content: "";
+  width: 0;
+  height: 0;
+
+  position: absolute;
+  border-bottom: solid 24px transparent;
+  border-top: solid 24px white;
+  border-left: solid 24px transparent;
+  border-right: solid 24px transparent;
+  top: -50px;
+  left: -48px;
+}
+
+.clients .owl-nav .owl-next {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -36px;
+  top: 20px;
+  transform: rotate(270deg);
+}
+
+.clients .owl-nav .owl-next:before {
+  content: "";
+  width: 0;
+  height: 0;
+
+  position: absolute;
+  border-bottom: solid 24px transparent;
+  border-top: solid 24px white;
+  border-left: solid 24px transparent;
+  border-right: solid 24px transparent;
+  top: -50px;
+  left: -48px;
+}
+
+/* dialog win */
+
+.ui-widget.ui-widget-content {
+  width: 500px !important;
+  border: none;
+}
+
+.ui-corner-all {
+  border: none !important;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.ui-widget-content {
+  background: #000000;
+  color: #ffffff;
+}
+
+.ui-widget {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#dialog p {
+  margin-bottom: 10px;
+}
+
+.dw_username, .form-field {
+  margin-bottom: 10px;
+
+}
+
+.ff-input {
+  width: 450px;
+  height: 30px;
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #1b1d1f;
+}
+
+#launch-btn {
+  /* margin-top: 20px; */
+  width: 150px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px #545556;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  border: none;
+  outline: none;
+  margin-top: 13px;
+  /* margin-bottom: 12x; */
+  cursor: pointer;
+}
+
+#required {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+
