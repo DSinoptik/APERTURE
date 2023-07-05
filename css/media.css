@@ -1,37 +1,24 @@
 @media only screen and (max-width: 768px) {
+
+
+
   
   header nav ul li {
-    margin-left: 0;
+    margin-left: 0px;
   }
-  
+
   header nav ul li:first-of-type {
+    margin-left: 0;
     margin-right: 0;
   }
-  
-  header nav ul li:first-of-type {
-    margin-left: 0;
-  }
 
   header nav a {
-    font-size: 15px;
-  }
-
-  
-  /* header nav ul li {
-    margin-left: 15px;
-  }
-
-  header nav ul li:first-of-type {
-    margin-right: 15px;
-  }
-
-  header nav a {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   header nav li:last-of-type a {
-    font-size: 15px;
-  } */
+    font-size: 13px;
+  }
 
   .boxes4_wrapper {
     flex-direction: column;
@@ -56,8 +43,8 @@
 
   .clients .flex_box {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
   }
 
   .flex_box a img {
