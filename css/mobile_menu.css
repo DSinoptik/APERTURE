@@ -540,3 +540,11 @@ header .logo {
 	position: relative;
 	z-index: 99;
 }
+
+header nav ul li {
+    margin-left: 0px !important;
+}
+
+header nav ul li:first-of-type {
+    margin-right: 0px !important;
+}
